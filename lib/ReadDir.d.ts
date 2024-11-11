@@ -1,4 +1,4 @@
-declare type ReadDirReturns = {
+type ReadDirReturns = {
     fullFilePath: string;
     relativeDirPath: string;
     fileName: string;
