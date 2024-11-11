@@ -16,7 +16,7 @@
   "engineStrict": true,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/powerdot/easy-yandex-s3.git"
+    "url": "git+https://github.com/kuzovkov/easy-yandex-s3.git"
   },
   "keywords": [
     "yandex",
@@ -28,14 +28,14 @@
   "author": "@powerdot Ilya Rychagov",
   "contributors": [
     {
-      "name": "Nikita Voloshin",
-      "email": "dev.nukuutos@gmail.com",
-      "url": "https://github.com/nukuutos"
+      "name": "Kuzovkov Alexander",
+      "email": "contacts@kuzovkov12.ru",
+      "url": "https://github.com/kuzovkov"
     }
   ],
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/powerdot/easy-yandex-s3/issues"
+    "url": "https://github.com/kuzovkov/easy-yandex-s3/issues"
   },
   "homepage": "https://github.com/powerdot/easy-yandex-s3#readme",
   "dependencies": {
