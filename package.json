@@ -39,7 +39,7 @@
   },
   "homepage": "https://github.com/powerdot/easy-yandex-s3#readme",
   "dependencies": {
-    "aws-sdk": "^2.1231.0",
+    "aws-sdk": "^2.1691.0",
     "file-type": "^12.0.1",
     "mime-types": "^2.1.24",
     "uuid": "^8.3.2"

@@ -154,12 +154,7 @@ class EasyYandexS3 {
     if (debug) this._log('S3', debugObject, params);
 
     try {
-      const s3Promise: S3.ManagedUpload.SendData = await new Promise((resolve, reject) => {
-        s3.upload(params, (err, data) => {
-          if (err) return reject(err);
-          return resolve(data);
-        });
-      });
+      const s3Promise: S3.ManagedUpload.SendData = await s3.upload(params).promise();
       if (debug) this._log('S3', debugObject, 'done:', s3Promise);
       return s3Promise;
     } catch (error) {
